@@ -1,0 +1,19 @@
+﻿id; naziv emisije;trajanje (min);osoba-uloga;osoba-uloga
+1; Dnevnik;45;10-2,10-3
+2; Dobro jutro Hrvatska;180;18-2
+3; TV kalendar;20;
+4; Žrtve ljubavi;30;
+5; Život na vagi;50;
+6; Teorija velikog praska;30;
+7; NCIS;50;
+8; Moderna obitelj;30;
+9; RTL Danas;60;3-2,3-3
+10; Dva i pol muškarca;30;
+11; Mentalist;45;
+12; Kod Ane;30;17-3
+13; Mala velika panda;88;
+14; Kralj majmuna;100;
+15; Večera za 5;30;
+16; Tko želi biti milijunaš; 55; 14-3
+17; Nedjeljom u dva; 60; 9-2, 9-3
+18; More;35;

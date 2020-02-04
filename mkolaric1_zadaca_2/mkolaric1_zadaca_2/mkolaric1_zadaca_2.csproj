@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D58CD0FD-BF8A-4617-B365-724C81EE40E3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>mkolaric1_zadaca_1</RootNamespace>
+    <AssemblyName>mkolaric1_zadaca_1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Composite\Dan.cs" />
+    <Compile Include="Composite\DanComposite.cs" />
+    <Compile Include="Composite\EmisijaLeaf.cs" />
+    <Compile Include="Composite\IRasporedEmisija.cs" />
+    <Compile Include="Composite\TvKucaComposite.cs" />
+    <Compile Include="Decorator\Component.cs" />
+    <Compile Include="Decorator\Decorator.cs" />
+    <Compile Include="Dodaci\IspisPodataka.cs" />
+    <Compile Include="Dodaci\ProvjeraUlaznihParametara.cs" />
+    <Compile Include="Dodaci\UcitavanjeDatotekaPrograma.cs" />
+    <Compile Include="Entiteti\Emisija.cs" />
+    <Compile Include="Entiteti\EmitiranjeEmisija.cs" />
+    <Compile Include="Entiteti\Osoba.cs" />
+    <Compile Include="Entiteti\Program.cs" />
+    <Compile Include="Entiteti\TvProgrami.cs" />
+    <Compile Include="Entiteti\Uloga.cs" />
+    <Compile Include="Entiteti\VrstaEmisije.cs" />
+    <Compile Include="FactoryMethod\Creator.cs" />
+    <Compile Include="FactoryMethod\EmisijaConcreateCreator.cs" />
+    <Compile Include="FactoryMethod\OsobaConcreateCreator.cs" />
+    <Compile Include="FactoryMethod\Product.cs" />
+    <Compile Include="FactoryMethod\ProgramConcreateCreator.cs" />
+    <Compile Include="FactoryMethod\TvParametriConcreateCreator.cs" />
+    <Compile Include="FactoryMethod\UlogaConcreateCreator.cs" />
+    <Compile Include="FactoryMethod\VrstaEmisijeConcreateCreator.cs" />
+    <Compile Include="GlavniProgram.cs" />
+    <Compile Include="Iterator\Aggregate.cs" />
+    <Compile Include="Iterator\AggregateVrsta.cs" />
+    <Compile Include="Iterator\ConcreateIterator.cs" />
+    <Compile Include="Iterator\ConcreateIteratorVrsta.cs" />
+    <Compile Include="Iterator\IAbstractIterator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Raspored.cs" />
+    <Compile Include="Singleton\TvKucaSingleton.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

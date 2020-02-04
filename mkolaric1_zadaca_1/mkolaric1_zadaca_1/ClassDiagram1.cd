@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="mkolaric1_zadaca_1.Osnovno.Emisija" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACCAABAAAAAAAAAAAAAAAAAAQAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Osnovno\Emisija.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mkolaric1_zadaca_1.Osnovno.Osoba" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Osnovno\Osoba.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mkolaric1_zadaca_1.Osnovno.Program" Collapsed="true">
+    <Position X="11.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAgAAAAAAAAAAAAAAIgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Osnovno\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mkolaric1_zadaca_1.Osnovno.TvPregled" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <InheritanceLine Type="mkolaric1_zadaca_1.TvHouseManagement" FixedFromPoint="true">
+      <Path>
+        <Point X="6.25" Y="0.812" />
+        <Point X="5.875" Y="0.812" />
+        <Point X="5.875" Y="1.846" />
+        <Point X="4.25" Y="1.846" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAIAAAAAAAAABAAAAAAAAgAAMgAAAAAAAAAA=</HashCode>
+      <FileName>Osnovno\TvPregled.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mkolaric1_zadaca_1.Osnovno.Uloga" Collapsed="true">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Osnovno\Uloga.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mkolaric1_zadaca_1.TvHouseManagement" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIBAAAAAUEAAAEAAAAABEABAAAAAA=</HashCode>
+      <FileName>TvHouseManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mkolaric1_zadaca_1.TvRaspored" Collapsed="true">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <InheritanceLine Type="mkolaric1_zadaca_1.TvHouseManagement" FixedFromPoint="true">
+      <Path>
+        <Point X="6.312" Y="1.062" />
+        <Point X="6.312" Y="1.846" />
+        <Point X="4.625" Y="1.846" />
+        <Point X="4.625" Y="2.596" />
+        <Point X="4.25" Y="2.596" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAgAAQAAAAAAAEAAA=</HashCode>
+      <FileName>TvRaspored.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mkolaric1_zadaca_1.TvKuca.TvKuca" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAIAAAAAAAAAAAAAAACAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>TvKuca\TvKuca.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="mkolaric1_zadaca_1.TvKuca.TvKucaSingleton" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAgAAAAAAAAAAAIAAAAEAAgAACBAEAAAQAAAAEAAAQA=</HashCode>
+      <FileName>TvKuca\TvKucaSingleton.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TvHouseManagement" />
+      <Property Name="IParametri" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="mkolaric1_zadaca_1.Ucitavanje.EmisijaFactory" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAQAAAAQCAQAACAAAAgI=</HashCode>
+      <FileName>Ucitavanje\EmisijaFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mkolaric1_zadaca_1.Ucitavanje.OsobaFactory" Collapsed="true">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAACQAAAAAAAAI=</HashCode>
+      <FileName>Ucitavanje\OsobaFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mkolaric1_zadaca_1.Ucitavanje.ProgramiFactory" Collapsed="true">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAcCAGAAAAgI=</HashCode>
+      <FileName>Ucitavanje\ProgramiFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mkolaric1_zadaca_1.Ucitavanje.Ucitavanje" Collapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <AssociationLine Name="TvHouseManagement" Type="mkolaric1_zadaca_1.TvHouseManagement">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.925" Y="0.163" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Ucitavanje\Ucitavanje.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TvHouseManagement" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="mkolaric1_zadaca_1.Ucitavanje.UcitavanjeEmisijaProduct" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAEAAACAAAAAAAAAAAABAABAAA=</HashCode>
+      <FileName>Ucitavanje\UcitavanjeEmisijaProduct.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IParametri" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.176" />
+  </Class>
+  <Class Name="mkolaric1_zadaca_1.Ucitavanje.UcitavanjeOsobaProduct" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAEAAACAAAAAAAAAAAABAABAAA=</HashCode>
+      <FileName>Ucitavanje\UcitavanjeOsobaProduct.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IParametri" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="mkolaric1_zadaca_1.Ucitavanje.UcitavanjeProgramaProduct" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAEAAACAAAAAAAAAAAABAABAAA=</HashCode>
+      <FileName>Ucitavanje\UcitavanjeProgramaProduct.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IParametri" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="mkolaric1_zadaca_1.Ucitavanje.UlogaFactoy" Collapsed="true">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQIAAAAAAAY=</HashCode>
+      <FileName>Ucitavanje\UlogaFactoy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="mkolaric1_zadaca_1.Interface.IParametri" Collapsed="true">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Interface\IParametri.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

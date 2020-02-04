@@ -1,0 +1,6 @@
+C:\Users\Matej\Desktop\UZDIZ\mkolaric1_zadaca_1\mkolaric1_zadaca_1\bin\Debug\mkolaric1_zadaca_1.exe.config
+C:\Users\Matej\Desktop\UZDIZ\mkolaric1_zadaca_1\mkolaric1_zadaca_1\bin\Debug\mkolaric1_zadaca_1.exe
+C:\Users\Matej\Desktop\UZDIZ\mkolaric1_zadaca_1\mkolaric1_zadaca_1\bin\Debug\mkolaric1_zadaca_1.pdb
+C:\Users\Matej\Desktop\UZDIZ\mkolaric1_zadaca_1\mkolaric1_zadaca_1\obj\Debug\mkolaric1_zadaca_1.csprojAssemblyReference.cache
+C:\Users\Matej\Desktop\UZDIZ\mkolaric1_zadaca_1\mkolaric1_zadaca_1\obj\Debug\mkolaric1_zadaca_1.exe
+C:\Users\Matej\Desktop\UZDIZ\mkolaric1_zadaca_1\mkolaric1_zadaca_1\obj\Debug\mkolaric1_zadaca_1.pdb
